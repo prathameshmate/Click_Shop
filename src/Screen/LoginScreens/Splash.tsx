@@ -57,7 +57,13 @@ const Splash = () => {
   }, []);
 
   return (
-    <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
+    <View
+      style={{
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+        backgroundColor: '#fff',
+      }}>
       <Image
         source={require('../../../Public/Logos/logo.jpg')}
         style={{height: 200, width: 200, borderRadius: 100}}
