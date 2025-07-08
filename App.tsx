@@ -8,7 +8,7 @@ import Loader from './src/Screen/Loader';
 
 // var len: any;
 // Create the Tab Navigator
-
+//
 const Stack = createNativeStackNavigator();
 const eventEmitter = new NativeEventEmitter(
   NativeModules.ReactNativeEventEmitter,
