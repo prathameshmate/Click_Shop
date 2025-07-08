@@ -6,7 +6,7 @@ import LoginStack from './src/Stacks/LoginStack';
 import DashBoardStack from './src/Stacks/DashBoardStack';
 import Loader from './src/Screen/Loader';
 
-\// Create the Tab Navigator
+// Create the Tab Navigator
 const Stack = createNativeStackNavigator();
 const eventEmitter = new NativeEventEmitter(
   NativeModules.ReactNativeEventEmitter,
